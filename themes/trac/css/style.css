@@ -1,0 +1,412 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:400,500,700';
+/* Font-Families
+ * font-family: 'Open Sans', sans-serif;
+ * font-family: 'Roboto', sans-serif;
+ */
+
+/* **** GLOBAL SETTINGS ********* */
+body{
+	background-color:#403f4c;
+	color:#c2c2c2;
+	line-height: 1.5em;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+}
+
+*:focus{
+	outline:none;
+	border:0;
+}
+
+.page-header{
+	padding: 0;
+  margin: 0;
+  border: none;
+  margin-bottom:30px;
+}
+.path-frontpage .page-header{
+  margin-bottom:0;
+}
+.views-field .img-responsive{
+  border-radius: 2px;
+}
+
+#edit-preview{
+	display:none;
+}
+/* ****** HEADER SETTINGS ******* */
+header,
+#mobileMenu{
+	background-color: #f7f7fb;
+	color:#403f4c;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size:23px;
+	padding:10px 0;
+	border-bottom:5px solid #403f4c;
+	text-align: right;
+	line-height: 1.1em;
+}
+header a,
+#mobileMenu a{
+	color:#403f4c;
+	text-decoration: none;
+}
+
+#block-supernavigation,
+#mobileMenu #block-supernavigation{
+	font-weight: 700;
+	font-size:18px;
+	margin-bottom: 35px;
+}
+#block-supernavigation a,
+#mobileMenu #block-supernavigation a{
+	color:#f60a20;
+}
+#block-supernavigation a:hover,
+#mobileMenu #block-supernavigation a:hover{
+	text-decoration: underline;
+}
+
+
+header nav{
+	float:right;
+	clear:both;
+}
+
+/* ******* MENU SETTIGNS ******* */
+ol,ul{
+	margin:0;
+	padding:0;
+}
+ul.menu{
+	list-style-type: none;
+}
+header a:hover,
+header a:focus,
+#mobileMenu a:hover,
+#mobileMenu a:focus,
+header a.is-active,
+#mobileMenu a.is-active{
+	background-color: transparent;
+	text-decoration: underline;
+	color:#403f4c;
+}
+
+/* ******** MAIN CONTENT SETTINGS ******* */
+.main-container{
+	background-color: #f7f7fb;
+	color:#403f4c;
+  padding:60px 0;
+}
+.path-frontpage .main-container{
+  padding:0;
+}
+
+/* ********* FOOTER SETTINGS ********* */
+footer{
+	font-size:18px;
+}
+.footer{
+	margin:0;
+	padding:35px 0;
+	border:0;
+	font-size:12px;
+	line-height: 1.2em;
+}
+
+/* Testimonial */
+
+#block-views-block-testimonials-quote{
+	font-size:18px;
+	line-height: 1.5em;
+	font-style: italic;
+	margin-bottom: 50px;
+	margin-top:25px;
+}
+.views-field-field-quote:before{
+	font-family: 'FontAwesome';
+	font-size: 40px;
+    content: '\f10d';
+    float: left;
+    margin-left: -46px;
+    margin-top: -10px;
+}
+
+.views-field-title > .field-content{
+	margin-right:10px;
+}
+
+/* Footer Blocks - Address, Copyright */
+#block-address{
+	float:left;
+}
+#block-copyright{
+	float:right;
+	margin-top:14px;
+}
+
+
+/* Homepage */
+.path-frontpage .page-header{
+	display:none;
+}
+.path-frontpage .field--name-body{
+	font-size:18px;
+	line-height: 1.4em;
+}
+.mediaBox{
+	position: relative;
+    /*height: 350px;*/
+    overflow: hidden;
+    border-bottom: 5px solid #403f4c;
+}
+.mediaBox > div{
+	/*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%, -50%);*/
+}
+.nodeBody{
+	margin:60px 0;
+}
+.detailBox{
+  margin-top:60px;
+}
+.path-frontpage .detailBox,
+.path-frontpage .boxImage{
+	margin-bottom:60px;
+  margin-top:0;
+}
+.paragraph--type--details-box{
+	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.view-portfolio .views-field-title,
+.view-portfolio .views-field-field-portfolio-image-s-{
+	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+}
+.field--name-field-details-title,
+.view-portfolio .views-field-title{
+  background-color: #044389;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+}
+.view-portfolio .views-field-title a{
+	color:#fff;
+}
+.field--name-field-details-paragraph,
+.view-portfolio .views-field-field-portfolio-image-s-{
+	padding:15px;
+	/*background: url('../images/dots.png') repeat;*/
+	background-color:rgba(4, 67, 137, .2);
+	min-height: 170px;
+    line-height: 1.4em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+ 
+
+
+.feed-icons{
+	display:none;
+}
+.field--name-field-box-copy ul{
+	line-height: 1.5em;
+}
+
+/* Contact Us Form */
+form .field--type-string,
+form .field--type-email,
+form .field--type-list-string{
+	width:48%;
+	float:left;
+	margin-right:15px;
+}
+
+form .panel{
+	clear:both;
+}
+
+.view-portfolio .views-row{
+	margin-bottom:30px;
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	nav ul.menu li{
+		float:left;
+		margin:0 15px;
+	}
+	.view-portfolio .views-row:nth-child(4n+1){
+		clear:both;
+	}
+	
+}
+/* Medium devices (desktops, 992px and down) */
+@media (max-width: 1199px) { 
+	/* Mobile Menu General */
+	.c-menu {
+	  position: fixed;
+	  z-index: 200;
+	  transition: transform 0.3s;
+	}
+
+
+	/**
+	 * Body states.
+	 *
+	 * When a menu is active, we want to hide the overflows on the body to prevent
+	 * awkward document scrolling.
+	 */
+	body.has-active-menu {
+	  overflow: hidden;
+	}
+	.has-push-right .overlay{
+		position:fixed;
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
+		background-color: rgba(0,0,0,.5);
+		z-index: 200;
+	}
+
+	/** Mask component (aka overlay) */
+
+	.c-mask {
+	  position: fixed;
+	  z-index: 100;
+	  top: 0;
+	  right: 0;
+	  overflow: hidden;
+	  width: 0;
+	  height: 0;
+	  /*background-color: #000;*/
+	  background-color: rgba(0,0,0,.5);
+	  opacity: 0;
+	  transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+	}
+
+	.c-mask.is-active {
+	  width: 300px;
+	  height: 100%;
+	  opacity: 1;
+	  transition: opacity 0.3s;
+	}
+
+	.c-menu--push-right {
+	  width: 100%;
+	  height: 100%;
+	  overflow-y: scroll;
+	}
+
+	.c-menu--push-right {
+	  top: 0;
+	  right: 0;
+	  transform: translateX(100%);
+	  background-color: #ebebec;
+	  box-shadow: 3px 0px 16px 0px rgba(0, 0, 0, 0.28) inset; 
+	  position: relative;
+	}
+	.c-menu--push-right.is-active {
+	  transform: translateX(0);
+	}
+	.o-wrapper.has-push-right {
+	  transform: translateX(-300px);
+	}
+
+	.o-wrapper.has-push-right .glyphicon-menu-hamburger:before{
+	  content:'\e014';
+	}
+
+	#c-mask .middleHeader{
+	  text-align: left;
+	}
+	#c-mask .superNavigation,
+	#c-mask .socialLinks a:hover{
+	  color:#ba1127;
+	}
+	#c-mask .superNavigation a,
+	#c-mask .socialLinks a{
+	  color:#939598;
+	}
+
+	/* Custom Menu settings */
+	#mobileMenu{
+		text-align: left;
+	}
+
+	#mobileMenu a{
+		margin-top:15px;
+		margin-bottom:15px;
+		display: block;
+	}
+	.main-menu {
+		padding:15px;
+	}
+	.main-menu .nav > li > a{
+		padding:0;
+	}
+	#mobileMenu #block-supernavigation{
+		margin-bottom:0;
+	}
+
+	/* Button Settings */
+	button{
+		border: 0;
+	    background-color: transparent;
+	    font-size: 30px;
+	    margin-top: 20px;
+	}
+
+	form .field--type-string,
+	form .field--type-email,
+	form .field--type-list-string{
+		width:45%;
+	}
+
+}
+
+/* -------------------------------------------------- */
+/* --------- Small Desktop Tablet Landscape --------- */
+/* -------------------------------------------------- */
+@media (min-width:993px) and (max-width: 1199px){
+	.view-portfolio .views-row:nth-child(4n+1){
+		clear:both;
+	}
+}
+/* -------------------------------------------------- */
+/* --------------- Tablet Portrait ------------------ */
+/* -------------------------------------------------- */
+@media  (max-width: 992px) {
+  .view-portfolio .views-row:nth-child(2n+1){
+		clear:both;
+	}
+}
+/* -------------------------------------------------- */
+/* ------------------ Mobile ------------------------ */
+/* -------------------------------------------------- */
+@media (max-width: 767px) {
+	form .field--type-string,
+	form .field--type-email,
+	form .field--type-list-string{
+		width:100%;
+		float:inherit;
+	}
+}

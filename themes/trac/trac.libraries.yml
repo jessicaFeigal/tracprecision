@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/flexslider.css: {}
+  js:
+    js/scripts.js: {}
+    js/jquery.flexslider-min.js: {}
