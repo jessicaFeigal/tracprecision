@@ -611,6 +611,10 @@ ul.cl-custom{
   text-align: center;
 }
 
+.field--type-file{
+  float:left;
+  clear:both;
+}
 
 form .field--type-string, form .field--type-email, form .field--type-list-string {
     width: 100%;
